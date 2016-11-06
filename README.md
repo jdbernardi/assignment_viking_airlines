@@ -40,5 +40,11 @@
 
 5. Find a list of all Airport names and codes which connect to the airport coded LYT.
 
+long_name, code
+
+WHERE code LIKE 'LYT'
+
+
+
 
 6. Get a list of all airports visited by user Dannie D'Amore after January 1, 2012. (Hint, see if you can get a list of all ticket IDs first). Note: Careful how you escape the quote in "D'Amore"... escaping in SQL is different from Ruby.
